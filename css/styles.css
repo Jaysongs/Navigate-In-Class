@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  height: 50px;
+  background-color: black;
+}
+nav .logoHolder {
+  height: 100%;
+  margin: 20px;
+}
+nav .logoHolder img {
+  height: 100%;
+}
+
+.head2 {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #6399FC;
+}
+.head2 .titles {
+  height: 100%;
+  width: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.head2 .title1 {
+  font-size: 35px;
+  font-weight: 200;
+}
+.head2 a {
+  text-decoration: none;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.head2 input {
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.head2 .submit {
+  background-color: #0A064F;
+  width: 100%;
+  color: aliceblue;
+}
+
+.maincover {
+  width: 100%;
+}
+.maincover .review {
+  position: absolute;
+  font-size: 100px;
+  color: white;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: #0A064F;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  color: aliceblue;
+}
+
+.wholePage {
+  display: flex;
+}
+
+.mediah1 {
+  border-bottom: gray 3px solid;
+  margin: 10px;
+}
+
+.newsBoxes {
+  margin-left: 10px;
+  width: 70%;
+  height: 100vh;
+}
+
+.news1 {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgba(128, 128, 128, 0.619);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.news1 img {
+  width: 300px;
+}
+.news1 .rightPart {
+  padding-left: 10px;
+  position: relative;
+  height: 100%;
+}
+.news1 .author {
+  position: absolute;
+  bottom: 0px;
+}
+
+.ads {
+  width: 30%;
+  height: 100vh;
+  padding: 25px;
+}
+
+.ad1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border-top: gray solid 0.5px;
+  border-bottom: gray solid 0.5px;
+}
+.ad1 p {
+  font-size: 100px;
+}
+
+.ad2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border-top: gray solid 0.5px;
+  border-bottom: gray solid 0.5px;
+}
+.ad2 p {
+  font-size: 100px;
+}
+
+.forumWhole {
+  padding: 10px;
+}
+
+.contentForum {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  border-bottom: gray 1px solid;
+  border-top: gray 1px solid;
+  background-color: rgb(176, 176, 174);
+}
+.entry img {
+  width: 45px;
+}
+
+.charPage {
+  width: 100%;
+}
+
+.hoBoxes {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+}
+
+.hoBox, .hoBox2, .hoBox3, .hoBox4, .hoBox5, .hoBox6 {
+  opacity: 0;
+}
+
+.hoBox:hover, .hoBox2:hover, .hoBox3:hover, .hoBox4:hover, .hoBox5:hover, .hoBox6:hover {
+  opacity: 1;
+}
+
+.hoText {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hoBox {
+  border: solid gray 0.5px;
+  width: 220px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.hoBox2 {
+  border: solid gray 0.5px;
+  width: 270px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.hoBox3 {
+  border: solid gray 0.5px;
+  width: 270px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.hoBox4 {
+  border: solid gray 0.5px;
+  width: 270px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.hoBox5 {
+  border: solid gray 0.5px;
+  width: 270px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.hoBox6 {
+  border: solid gray 0.5px;
+  width: 220px;
+  height: 92vh;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signin label,
+.signin input {
+  display: block;
+}
+.signin label {
+  margin-bottom: 10px;
+}
+.signin input {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.signin .submit {
+  background-color: darkkhaki;
+  width: 30%;
+}
